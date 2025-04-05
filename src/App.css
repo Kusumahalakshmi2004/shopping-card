@@ -1,0 +1,110 @@
+/* src/App.css */
+.app {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+.products {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.product {
+  border: 1px solid #ddd;
+  padding: 10px;
+  width: 22%;
+  text-align: center;
+}
+
+.quantity-selector {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.quantity-selector button {
+  background-color: #ddd;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.quantity-selector span {
+  margin: 0 10px;
+}
+
+.product button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.product button:hover {
+  background-color: #0056b3;
+}
+
+.cart-summary {
+  margin-bottom: 20px;
+}
+
+.progress-bar {
+  width: 100%;
+  background-color: #f0f0f0;
+  height: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.progress {
+  height: 100%;
+  background-color: #28a745;
+  transition: width 0.3s ease;
+}
+
+.gift-message {
+  color: #28a745;
+  font-weight: bold;
+}
+
+.cart-items {
+  margin-top: 20px;
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.cart-controls button {
+  margin-left: 10px;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.cart-controls button:nth-child(1) {
+  background-color: #dc3545;
+  color: white;
+}
+
+.cart-controls button:nth-child(2) {
+  background-color: #28a745;
+  color: white;
+}
+
+.cart-controls button:nth-child(3) {
+  background-color: #ffcc00;
+}
